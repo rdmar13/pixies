@@ -44,33 +44,139 @@
                 <a href="index.html">Home</a>
             </li>
             <li>
-                <a href="#about">About</a>
-            </li>
-            <li>
                 <a href="siguiente.html">Siguiente</a>
             </li>
             <li>
                 <a href="estadisticas">Estadisticas</a>
             </li>
-            <li>
-                <a href="cancha">Cancha</a>
-            </li>
         </ul>
     </nav>
-
     <!-- Header -->
     <header id="top" class="header">
         <div class="text-vertical-center">
             <h1>Pixies</h1>
             <h3>El mejor equipo de futbol 7</h3>
             <br>
-            <a href="#about" class="btn btn-dark btn-lg">Find Out More</a>
         </div>
     </header>
+
+ 
+
+
+ <section id='tablaPts' class='tabla'>
+    
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Juegos de Pixies</h2>
+                    <p class="lead">6 Puntos</p>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="container">
+        <table class="table table-hover">
+            <tr>
+                <th> # </th>
+                <th> Rival </th>
+                <th> Fecha </th>
+                <th> Goles Favor </th>
+                <th> Goles Encontra </th>
+                <th> Pts </th>
+            </tr>
+            <tr>
+                <td> 1</td>
+                <td> ?? </td>
+                <td> 21/08/2014 </td>
+                <td> 3</td>
+                <td> 1</td>
+                <td class="ganado"> 3</td>
+            </tr>
+            <tr>
+                <td> 2</td>
+                <td> ?? </td>
+                <td> 28/08/2014 </td>
+                <td> 5</td>
+                <td> 2</td>
+                <td class="ganado"> 3</td>
+            </tr>
+            <tr>
+                <td> 3</td>
+                <td> ?? </td>
+                <td> 3/10/2014 </td>
+                <td> -</td>
+                <td> -</td>
+                <td> -</td>
+            </tr>
+            <tr class="active">
+                <td> Total</td>
+                <td>  </td>
+                <td>  </td>
+                <td> 8</td>
+                <td> 3</td>
+                <td> 6</td>
+            </tr>
+        </table>
+        </div>
+    </section>
+
+
+     <section id='tablaGoleo' class='tabla'>
+        
+    <!-- Call to Action -->
+        <aside class="call-to-action bg-primary">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h3>Goleo Individual</h3>
+                        <h1>Mara: 3</h1>
+                    </div>
+                </div>
+            </div>
+        </aside>
+        <br>
+        <div class="container">
+            <table class="table table-hover">
+                <tr>
+                    <th> # </th>
+                    <th> Nombre </th>
+                    <th> Goles </th>\
+                </tr>
+                <tr class="lider">
+                    <td> 10</td>
+                    <td>  Mara </td>
+                    <td> 3</td>
+                </tr>
+                <tr>
+                    <td> 9</td>
+                    <td> Beto </td>
+                    <td> 2</td>
+                </tr>
+                <tr>
+                    <td> 18</td>
+                    <td> Rorro </td>
+                    <td> 2</td>
+                </tr>
+                <tr>
+                    <td> ??</td>
+                    <td> Felipe </td>
+                    <td> 1</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
 
     <!-- About -->
     <section id="about" class="about">
         <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>El sitio sigue en construccion!</h2>
+                    <p class="lead">Pero va a quedar chingon </p>
+                </div>
+            </div>
+            <!-- /.row -->
         </div>
         <!-- /.container -->
     </section>
@@ -80,12 +186,12 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h4><strong>Start Bootstrap</strong>
+                    <h4><strong>Pixies</strong>
                     </h4>
-                    <p>3481 Melrose Place<br>Beverly Hills, CA 90210</p>
+                    <p>XXX-XXX<br>Monterrey, NL 64780</p>
                     <ul class="list-unstyled">
                         <li><i class="fa fa-phone fa-fw"></i> (123) 456-7890</li>
-                        <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:name@example.com">name@example.com</a>
+                        <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:pixies-mty@gmail.com">pixies-mty@gmail.com</a>
                         </li>
                     </ul>
                     <br>
@@ -101,7 +207,7 @@
                         </li>
                     </ul>
                     <hr class="small">
-                    <p class="text-muted">Copyright &copy; Your Website 2014</p>
+                    <p class="text-muted">Copyright &copy; Pixies 2014</p>
                 </div>
             </div>
         </div>

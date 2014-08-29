@@ -16,6 +16,19 @@ body {
     font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+.ganado{
+    color: green;
+    font-size: 14;
+    font-weight: bold;
+}
+
+.lider,
+.lider:hover,
+.lider:focus,
+.lider:active{
+    background-color: lightblue;
+}
+
 .text-vertical-center {
     display: table-cell;
     text-align: center;
