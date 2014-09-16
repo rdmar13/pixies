@@ -255,3 +255,7 @@ hr.small {
 footer {
     padding: 100px 0;
 }
+
+.dark-text{
+    font-weight: bold;
+}
