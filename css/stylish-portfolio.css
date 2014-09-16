@@ -21,6 +21,11 @@ body {
     font-size: 14;
     font-weight: bold;
 }
+.perdido{
+    color: red;
+    font-size: 14;
+    font-weight: bold;
+}
 
 .lider,
 .lider:hover,
