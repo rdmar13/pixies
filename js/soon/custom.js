@@ -15,12 +15,13 @@ COMMING SOON PAGE
     var hours = $('#hours');
     var minutes = $('#minutes');
     var seconds = $('#seconds');
+    var offset = -0;
     
     setDate();
     function setDate(){
         var now = new Date();
         if( launch > now ){
-            var s = -now.getTimezoneOffset()*60 + (launch.getTime() - now.getTime())/1000;
+            var s = -offset*60 + (launch.getTime() - now.getTime())/1000;
             var d = Math.floor(s/86400);
             days.html('<h1 class="timer-h1">'+d+'</h1><p>Dia'+(d>1?'s':''),'</p>');
             s -= d*86400;
